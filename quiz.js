@@ -77,8 +77,57 @@ const answerEls = document.querySelectorALL('.answer')
 const questionEl = document.getElementById('question')
 const A_text = document.getElementById('A_text')
 const B_text = document.getElementById('B_text')
-const c_text = document.getElementById('C_text')
+const C_text = document.getElementById('C_text')
 const submitBtn = document.getElementById('submit')
 
 let currentQuiz = 0
 let score = 0
+
+loadQuiz()
+function loadQuiz(){
+    deselectAnswers()
+
+    const currentQuizData = quizData[currentQuiz]
+    questionEl.innerText = currentQuizData.question
+    A_text.innerText = currentQuizData.A
+    B_text.innerText = currentQuizData.B
+    C_text.innerText = currentQuizData.C
+}
+
+function deselectAnswers() {
+    answerEls.foreach(answerEls => answerEls.checked = false)
+}
+
+function getSelected() {
+    let answerEls
+    let answerEls.forEach (answerE1 => {
+        if (answerEls.checked){
+            answer = answerEl.id
+        }
+    })
+    return answer
+}
+
+submitBtn.addEventListener('click', () => {
+    const answer = getSelected()
+    if (answer) { 
+        if (answer === quizData[currentQuiz].correct) {
+            score++
+        }
+        currentQuiz++
+
+        if(currentQuiz < 10){
+            loadquiz()
+        }else{
+            quiz.innelogic = `
+            <h3>You answered ${score}/${100} questions correctly</h3>
+            
+            <button onclick="location.reload()">Reload</button>
+            `
+        }
+    }
+})
+
+
+
+

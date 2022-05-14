@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width" initial scale="1.0">
         <title>Quiz Board</title>
         <link rel="stylesheet" type="text/css" href="style.css">
+        <script type="text/javascript" src="quiz.js"></script>
     </head>
     <body>
     
@@ -13,32 +14,94 @@
     <div class="quizboard-container" id="quiz">
         <div class="quizboard-header">
             <h3 id="question">Question text</h3>
-            <ul>
-                <li>
-                    <input type="radio" name="answer" id="A" class="answer">
-                    <label for="A" id="A_text">Answer</label>
-                </li>
-                       
-                <li>
-                    <input type="radio" name="answer" id="A" class="answer">
-                    <label for="B" id="B_text">Answer</label>
-                </li>
+            <div>
+                <p>What is Javascript?</p>
+                <p><input type="radio" name="question1" value="It is an inbuilt language that adds interactivity to the user">A. It is an inbuilt language that adds interactivity to the user</input></p>
+                <p><input type="radio" name="question1" value="It is a language used to structure web-pages">B. It is a language used to structure web-pages</p>
+                <p><input type="radio" name="question1" value="It is a language used to in styling web pages">C.It is a language used to in styling web pages</p>
+            </div>
 
-                <li>
-                    <input type="radio" name="answer" id="A" class="answer">
-                    <label for="c" id="C_text">Answer</label>
-                </li>
+            <div>
+                <p>Which one of the following is not correct on Javascript data types?</p>
+                <p><input type="radio" name="question2" value="Number">A. Number</p>
+                <p><input type="radio" name="question2" value="String">B. String </p>
+                <p><input type="radio" name="question2" value="Css">C. Css</p>
+            </div>
 
-            </ul>
+            <div>
+                <p>Which one of the following is not a looping structure in Javascript?</p>
+                <p><input type="radio" name="question3" value="For">A. For</p>
+                <p><input type="radio" name="question3" value="While">B.While </p>
+                <p><input type="radio" name="question3" value="Objects">C. Objects</p>
+            </div>
+
+            <div>
+                <p>Select only the logical operator</p>
+                <p><input type="radio" name="question4" value="&&">A. &&</p>
+                <p><input type="radio" name="question4" value="?">B.? </p>
+                <p><input type="radio" name="question4" value="[]">C. &&</p>
+            </div>
+
+            <div>
+                <p>Which one of the following is false about pop up boxes in JS?</p>
+                <p><input type="radio" name="question5" value="Alert">A. Alert</p>
+                <p><input type="radio" name="question5" value="Select">B. Select</p>
+                <p><input type="radio" name="question5" value="Prompt">C. Prompt</p>
+            </div>
+
+            <div>
+                <p>Which one of the following act as a container in JS for string values?</p>
+                <p><input type="radio" name="question6" value="Variables">A. Variables</p>
+                <p><input type="radio" name="question6" value="Div">B. Div</p>
+                <p><input type="radio" name="question6" value="Type">C. Type</p>
+            </div>
+
+            <div>
+                <p>What is the role of concatenation in JS?</p>
+                <p><input type="radio" name="question7" value="To multiply things together">A. To multiply things together</p>
+                <p><input type="radio" name="question7" value="To join two or more things together">B. To join two or more things together </p>
+                <p><input type="radio" name="question7" value="To structure JS">C. To structure JS</p>
+            </div>
+
+            <div>
+                <p>which of the following is used to get the length of a string?</p>
+                <p><input type="radio" name="question8" value=".length">A. .length</p>
+                <p><input type="radio" name="question8" value=".concat">B. .concat</p>
+                <p><input type="radio" name="question8" value=".indexOf">C. .indexOf</p>
+            </div>
+
+            <div>
+                <p>The comparison operators return the output of the following, except?</p>
+                <p><input type="radio" name="question9" value="True">A. True</p>
+                <p><input type="radio" name="question9" value="False">B. False</p>
+                <p><input type="radio" name="question9" value="Absolute">C. Absolute</p>
+            </div>
+
+            <div>
+                <p>Which one of the following displays only OK button?</p>
+                <p><input type="radio" name="question10" value="Alert box">A. Alert box</p>
+                <p><input type="radio" name="question10" value="confirmation box">B. Confirmation box</p>
+                <p><input type="radio" name="question10" value="Prompt">C. Prompt</p>
+            </div>
+
+
+
+
+
+            
+
+
+
+
+
+
+
+
         </div>
         <button class="Submit">Submit</button>
     </div>
     
 
-
-
-
-    <script scr="script.js"></script>
 
  </body>
 </html>
