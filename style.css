@@ -39,14 +39,14 @@ body{
 
 }
 
-.quizboard-header > ul > li{
+.quizboard-header > p{
     list-style-type: none;
     padding: 0px;
     font-size: x-large;
     margin: 0;
 }
 
-.quizboard-header > ul > li > label{
+.quizboard-header > p{
     cursor: pointer;
 }
 
