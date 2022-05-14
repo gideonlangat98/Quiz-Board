@@ -28,7 +28,7 @@ B: "Select",
 C: "Prompt",
 correct : "B",
 
-question : "Which one of the following displays only OK buuton?",
+question : "Which one of the following displays only OK button?",
 A: "Alert box",
 B: "Confirmation box",
 C: "Prompt",
@@ -56,4 +56,4 @@ question : "The comparison operators return the output of the following, except?
 A: "True",
 B: "false",
 C: "absolute",
-correct : "C";
+correct : "C";,
