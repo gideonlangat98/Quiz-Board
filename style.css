@@ -44,7 +44,30 @@ body{
     margin: 0;
 }
 
+.quizboard-header > ul > li > label{
+    cursor: pointer;
+}
 
+button{
+    color: white;
+    background-color: green;
+    border-radius: 3px;
+    font-size: 15px;
+    font-family: inherit;
+    padding-right: 3px;
+    padding-left: 2px;
+    width: 20%;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: aqua;
+}
+
+button:focus{
+    background-color: aquamarine;
+    outline: auto;
+}
 
 
 
