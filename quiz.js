@@ -55,20 +55,21 @@ function check(){
     quizzes.style.display = "none";
 
     // Displaying the results //
-    
+
     var percent = correct/10*100;
-    if (percent > 80){
-        score.textContent = `Your score is ${correct}. YOU HAVE EXCELLENTLY PASSED!`;
-        alert('Well done!')
+
+    if (percent <50){
+        score.textContent = `YOUR SCORE IS ${correct}. YOU HAVE POORLY SCORED. RETAKE THE TEST!`;
+        alert('POOR SCORE!. Click Ok to check your results')
     }
-    if (percent > 50){
+    if (percent < 80){
         score.textContent = `Your score is ${correct}. You have fairly passed!`;
-        alert('Fairly passed!')
+        alert('FAIRLY PASSED!. Click Ok to check your results')
     }  
 
     else{
-        score.textContent = `Your score is ${correct}. You have poorly scored. Retake the test!`
-        alert('Poor score!')
+        score.textContent = `Your score is ${correct}. YOU HAVE EXCELLENTLY PASSED!!`
+        alert('WELL DONE!. Click Ok to check your results')
     };
 
 }

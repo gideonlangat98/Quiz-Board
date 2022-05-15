@@ -46,7 +46,7 @@ body{
     cursor: pointer;
 }
 
-.button{
+#button{
     color: white;
     background-color: green;
     border-radius: 3px;
@@ -58,11 +58,11 @@ body{
     cursor: pointer;
 }
 
-.button:hover{
+#button:hover{
     background-color: aqua;
 }
 
-.button:focus{
+#button:focus{
     background-color: aquamarine;
     outline: auto;
 }
