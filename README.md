@@ -6,6 +6,7 @@ Description
 Features
 Requirements
 Live Link
+Figma link
 Technology Used
 Licence
 Authors Info
@@ -17,6 +18,7 @@ Requirements
 Access to a computer or any other garget
 Access to internet [Go Back to the top]
 Live Link
+Figma link: https://www.figma.com/file/WeicI1aw7mpMBYhQjILK41/QUIZ-BOARD-FIGMA-PROTOTYPE?node-id=1%3A2
 Click this link to view the live application 
 HTML - which was used to develope the structure off the pages.
 CSS - which was used to style the User Interface. [Go Back to the top]

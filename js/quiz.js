@@ -1,4 +1,9 @@
-
+// Business Logic //
+$document.ready (function(){
+  $("#subm-but"). click(function(){
+    var name= $("input#name").val();
+  })
+})
 
 // UI Logic //
 function check(){
