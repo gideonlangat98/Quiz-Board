@@ -60,16 +60,16 @@ function check(){
 
     if (percent <50){
         score.textContent = `YOUR SCORE IS ${correct}. YOU HAVE POORLY SCORED. RETAKE THE TEST!`;
-        alert('POOR SCORE!. Click Ok to check your results')
+        alert('POOR SCORE!. Click OK to check your results')
     }
     if (percent < 80){
         score.textContent = `Your score is ${correct}. You have fairly passed!`;
-        alert('FAIRLY PASSED!. Click Ok to check your results')
+        alert('FAIRLY PASSED!. Click OK to check your results')
     }  
 
     else{
         score.textContent = `Your score is ${correct}. YOU HAVE EXCELLENTLY PASSED!!`
-        alert('WELL DONE!. Click Ok to check your results')
+        alert('WELL DONE!. Click OK to check your results')
     };
 
 }
