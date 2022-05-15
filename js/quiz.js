@@ -17,34 +17,34 @@ function check(){
     
     var correct = 0;
     if (q1=="It is an inbuilt language that adds interactivity to the user") 
-       {correct++}
+      {correct++}
       
     if (q2=="Css") 
       {correct++}
 
     if (q3=="Objects") 
-       {correct++}
+      {correct++}
     
     if (q4=="&&") 
       {correct++}
      
     if (q5=="Select") 
-       {correct++}
+      {correct++}
       
     if (q6=="Variables") 
-      {correct++}
+     {correct++}
       
     if (q7=="To join two or more things together") 
-      {correct++}
+     {correct++}
      
     if (q8==".length") 
-      {correct++}
+     {correct++}
       
     if (q9=="Absolute") 
-      {correct++}
+     {correct++}
      
     if (q10=="Alert box")
-      {correct++}
+     {correct++}
       
     // document.write(correct);
 
