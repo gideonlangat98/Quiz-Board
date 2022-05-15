@@ -54,12 +54,14 @@ function check(){
     var quizzes = document.getElementById('quizzes');
     quizzes.style.display = "none";
 
+    // Displaying the results //
+    
     var percent = correct/10*100;
-    if (percent <50){
+    if (percent > 80){
         score.textContent = `Your score is ${correct}. YOU HAVE EXCELLENTLY PASSED!`;
-        alert('Well done')
+        alert('Well done!')
     }
-    if (percent <79){
+    if (percent > 50){
         score.textContent = `Your score is ${correct}. You have fairly passed!`;
         alert('Fairly passed!')
     }  
@@ -67,6 +69,6 @@ function check(){
     else{
         score.textContent = `Your score is ${correct}. You have poorly scored. Retake the test!`
         alert('Poor score!')
-    }
+    };
 
 }
