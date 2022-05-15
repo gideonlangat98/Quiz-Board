@@ -7,7 +7,8 @@
 body{
     margin: 0;
     padding: 0;
-    display: list-item;
+    background-color: pink;
+    display: inline-block;
     align-items: center;
     justify-content: center;
 }

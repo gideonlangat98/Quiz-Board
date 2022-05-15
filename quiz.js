@@ -13,52 +13,60 @@ function check(){
     var q8 = document.quizzes.question8.value;
     var q9 = document.quizzes.question9.value;
     var q10 = document.quizzes.question10.value;
+
     
     var correct = 0;
     if (q1=="It is an inbuilt language that adds interactivity to the user") 
        {correct++}
-       document.write(correct);
-
+      
     if (q2=="Css") 
       {correct++}
-       document.write(correct);
-
 
     if (q3=="Objects") 
        {correct++}
-       document.write(correct);
-
+    
     if (q4=="&&") 
-       {correct++}
-       document.write(correct);
-
-
+      {correct++}
+     
     if (q5=="Select") 
-       document.write(correct);
-
+       {correct++}
+      
     if (q6=="Variables") 
       {correct++}
-       document.write(correct);
-
+      
     if (q7=="To join two or more things together") 
       {correct++}
-      document.write(correct);
-
+     
     if (q8==".length") 
       {correct++}
-      document.write(correct);
-
+      
     if (q9=="Absolute") 
       {correct++}
-      document.write(correct);
-
+     
     if (q10=="Alert box")
       {correct++}
-      document.write(correct);
+      
+    // document.write(correct);
 
+    var score = document.getElementById('score');
+    // score.textContent = `${correct}`;
 
-   
-                      
-        
+    var quizzes = document.getElementById('quizzes');
+    quizzes.style.display = "none";
+
+    var percent = correct/10*100;
+    if (percent <50){
+        score.textContent = `Your score is ${correct}. YOU HAVE EXCELLENTLY PASSED!`;
+        alert('Well done')
+    }
+    if (percent <79){
+        score.textContent = `Your score is ${correct}. You have fairly passed!`;
+        alert('Fairly passed!')
+    }  
+
+    else{
+        score.textContent = `Your score is ${correct}. You have poorly scored. Retake the test!`
+        alert('Poor score!')
+    }
+
 }
-
