@@ -17,7 +17,7 @@ This project is about creating a Quiz Board website which allows one to undertak
 Requirements
 Access to a computer or any other garget
 Access to internet [Go Back to the top]
-Live Link
+Live Link: https://gideonlangat98.github.io/Quiz-Board/
 Figma link: https://www.figma.com/file/WeicI1aw7mpMBYhQjILK41/QUIZ-BOARD-FIGMA-PROTOTYPE?node-id=1%3A2
 Click this link to view the live application 
 HTML - which was used to develope the structure off the pages.
